@@ -1,0 +1,12 @@
+[
+  {"name": "Python", "category": "Programming", "level": "foundation"},
+  {"name": "OOP", "category": "Programming", "level": "foundation"},
+  {"name": "SQL", "category": "Data", "level": "foundation"},
+  {"name": "Git", "category": "Tools", "level": "foundation"},
+  {"name": "REST API", "category": "Backend", "level": "intermediate"},
+  {"name": "Flask", "category": "Backend", "level": "intermediate"},
+  {"name": "Testing", "category": "Quality", "level": "intermediate"},
+  {"name": "JavaScript", "category": "Programming", "level": "foundation"},
+  {"name": "Data visualization", "category": "Data", "level": "intermediate"},
+  {"name": "Machine learning", "category": "AI", "level": "advanced"}
+]

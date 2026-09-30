@@ -1,0 +1,10 @@
+[
+  {"skill": "Python", "title": "Python for Everybody", "url": "https://www.py4e.com/"},
+  {"skill": "SQL", "title": "SQLBolt interactive lessons", "url": "https://sqlbolt.com/"},
+  {"skill": "Flask", "title": "Flask documentation tutorial", "url": "https://flask.palletsprojects.com/en/stable/tutorial/"},
+  {"skill": "JavaScript", "title": "MDN JavaScript Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"},
+  {"skill": "Git", "title": "Pro Git book", "url": "https://git-scm.com/book/en/v2"},
+  {"skill": "Statistics", "title": "Khan Academy statistics", "url": "https://www.khanacademy.org/math/statistics-probability"},
+  {"skill": "REST API", "title": "MDN: An overview of HTTP", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"},
+  {"skill": "default", "title": "freeCodeCamp learning resources", "url": "https://www.freecodecamp.org/learn/"}
+]

@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}Readiness dashboard{% endblock %}
+{% block content %}
+<section class="page-hero section-wrap"><div><p class="eyebrow"><span class="eyebrow-dot"></span> YOUR DASHBOARD / 03</p><h1>See the progress<br><em>you’re making.</em></h1></div><p>Your latest career guide and resume review, together in one place. Progress is personal and saved in this browser.</p></section>
+<section class="dashboard-wrap section-wrap" id="dashboard-content"><div class="dashboard-empty"><span class="empty-mark">03</span><h2>Your journey starts with one input.</h2><p>Build a career guide or analyze a resume to see your readiness snapshot here.</p><div class="hero-actions"><a class="button button-dark" href="{{ url_for('career_page') }}">Build a roadmap ↗</a><a class="text-link" href="{{ url_for('resume_page') }}">Review my resume →</a></div></div></section>
+<section class="dashboard-links section-wrap"><a href="{{ url_for('skill_proof_page') }}"><span>SKILL PROOF</span><strong>Turn a gap into a demonstration ↗</strong></a><a href="{{ url_for('interview_page') }}"><span>INTERVIEW PREP</span><strong>Practice saying what you know ↗</strong></a></section>
+{% endblock %}

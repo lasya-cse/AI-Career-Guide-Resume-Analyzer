@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Resume lab{% endblock %}
+{% block content %}
+<section class="page-hero section-wrap"><div><p class="eyebrow"><span class="eyebrow-dot"></span> RESUME LAB / 02</p><h1>Show your work<br><em>at its best.</em></h1></div><p>Get a role-aware view of your resume’s skills, focus, and next improvements. Your file is analyzed in memory and is not saved by this app.</p></section>
+<section class="workspace-grid section-wrap resume-layout">
+  <form class="form-panel" id="resume-form" enctype="multipart/form-data">
+    <div class="panel-topline"><span>RESUME CHECK</span><span>PDF / DOCX / TXT</span></div>
+    <label for="resume-file">Choose your resume</label><input id="resume-file" name="resume" type="file" accept=".pdf,.docx,.txt" required><p class="field-hint">Maximum file size: 5 MB. Text-based documents only.</p>
+    <label for="resume-role">Target role</label><input id="resume-role" name="target_role" list="role-options" maxlength="100" placeholder="e.g. Data Analyst" required><datalist id="role-options"></datalist>
+    <button class="button button-dark button-wide" type="submit">Analyze resume <span aria-hidden="true">↗</span></button><p class="form-message" aria-live="polite"></p>
+  </form>
+  <div class="result-panel" id="resume-results" aria-live="polite"><div class="empty-state"><span class="empty-mark">02</span><p class="eyebrow">YOUR REVIEW APPEARS HERE</p><h2>Clearer, not harsher.</h2><p>See an estimated compatibility score, role skill matches, improvement ideas, certifications, keywords, and job portals.</p><div class="empty-rule"></div><span class="small-mono">NO FILES ARE STORED ON THE SERVER</span></div></div>
+</section>
+{% endblock %}

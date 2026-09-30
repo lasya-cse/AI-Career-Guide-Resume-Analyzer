@@ -1,0 +1,7 @@
+[
+  {"name": "LinkedIn Jobs", "url": "https://www.linkedin.com/jobs/", "roles": ["Python", "Developer", "Data", "Machine Learning", "Frontend", "Backend"]},
+  {"name": "Wellfound", "url": "https://wellfound.com/jobs", "roles": ["Developer", "Python", "Machine Learning", "Frontend", "Backend"]},
+  {"name": "Indeed", "url": "https://www.indeed.com/", "roles": ["Python", "Developer", "Data", "Machine Learning", "Frontend", "Backend"]},
+  {"name": "DataJobs", "url": "https://www.datajobs.com/", "roles": ["Data", "Machine Learning"]},
+  {"name": "Hacker News Who Is Hiring", "url": "https://news.ycombinator.com/submitted?id=whoishiring", "roles": ["Developer", "Python", "Backend", "Frontend"]}
+]

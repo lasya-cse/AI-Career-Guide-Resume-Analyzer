@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Interview preparation{% endblock %}
+{% block content %}
+<section class="page-hero section-wrap"><div><p class="eyebrow"><span class="eyebrow-dot"></span> INTERVIEW ROOM / 05</p><h1>Practice the<br><em>conversation.</em></h1></div><p>Work through technical, project, resume, and HR questions shaped around your target role and the skills you’re developing.</p></section>
+<section class="interview-wrap section-wrap">
+  <form class="inline-form" id="interview-form"><label for="interview-role">Target role</label><input id="interview-role" list="role-options" placeholder="e.g. Python Developer" required><datalist id="role-options"></datalist><label for="interview-skills">Current skills</label><input id="interview-skills" placeholder="Python, SQL, teamwork"><label for="interview-gaps">Skills in progress</label><input id="interview-gaps" placeholder="Flask, testing"><label for="interview-resume">Resume highlights (optional)</label><input id="interview-resume" maxlength="3000" placeholder="Project or experience highlights"><button class="button button-dark" type="submit">Generate practice set ↗</button><p class="form-message" aria-live="polite"></p></form>
+  <div id="interview-results" class="interview-results" aria-live="polite"><div class="empty-wide"><span class="small-mono">PRACTICE SET / 00</span><p>Choose a role to open your interview practice set.</p></div></div>
+</section>
+{% endblock %}

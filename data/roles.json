@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Python Developer",
+    "skills": ["Python", "OOP", "SQL", "Git", "REST API", "Testing"],
+    "sequence": ["Python", "OOP", "SQL", "Flask", "REST API", "Testing", "AI Web Application"]
+  },
+  {
+    "title": "Data Analyst",
+    "skills": ["SQL", "Python", "Spreadsheets", "Statistics", "Data visualization", "Communication"],
+    "sequence": ["Spreadsheets", "SQL", "Statistics", "Python", "Data visualization", "Portfolio project"]
+  },
+  {
+    "title": "Frontend Developer",
+    "skills": ["HTML", "CSS", "JavaScript", "Accessibility", "Git", "API integration"],
+    "sequence": ["HTML", "CSS", "JavaScript", "Accessibility", "API integration", "Portfolio project"]
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "skills": ["Python", "Statistics", "Data preparation", "Machine learning", "Model evaluation", "Git"],
+    "sequence": ["Python", "Statistics", "Data preparation", "Machine learning", "Model evaluation", "Deploy a model"]
+  },
+  {
+    "title": "Backend Developer",
+    "skills": ["Python", "SQL", "REST API", "Authentication", "Testing", "Git"],
+    "sequence": ["Python", "SQL", "Flask", "REST API", "Authentication", "Testing"]
+  }
+]

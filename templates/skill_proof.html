@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Prove your skill{% endblock %}
+{% block content %}
+<section class="page-hero section-wrap"><div><p class="eyebrow"><span class="eyebrow-dot"></span> PROVE YOUR SKILL / 04</p><h1>Make a skill<br><em>visible.</em></h1></div><p>Choose a skill you want to strengthen, take on a small challenge, and get concise educational feedback on your work.</p></section>
+<section class="proof-layout section-wrap">
+  <form class="form-panel" id="proof-form"><div class="panel-topline"><span>CHOOSE A CHALLENGE</span><span>01 — 02</span></div><label for="proof-role">Target role</label><input id="proof-role" list="role-options" placeholder="e.g. Backend Developer"><datalist id="role-options"></datalist><label for="proof-skill">Skill to demonstrate</label><input id="proof-skill" maxlength="80" placeholder="e.g. Flask" required><button class="button button-dark button-wide" type="submit">Create challenge <span aria-hidden="true">↗</span></button><p class="form-message" aria-live="polite"></p></form>
+  <div class="result-panel proof-result" id="proof-results" aria-live="polite"><div class="empty-state"><span class="empty-mark">04</span><p class="eyebrow">YOUR CHALLENGE APPEARS HERE</p><h2>Small proof adds up.</h2><p>Challenges are intentionally scoped so you can finish, reflect, and keep going.</p><div class="empty-rule"></div><span class="small-mono">EDUCATIONAL REVIEW, NOT CERTIFICATION</span></div></div>
+</section>
+{% endblock %}

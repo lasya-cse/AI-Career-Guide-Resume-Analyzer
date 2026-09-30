@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Career guide{% endblock %}
+{% block content %}
+<section class="page-hero section-wrap"><div><p class="eyebrow"><span class="eyebrow-dot"></span> CAREER GUIDE / 01</p><h1>Make the next<br><em>30 days count.</em></h1></div><p>Tell us where you want to go and what you already know. We’ll lay out a practical route to get moving.</p></section>
+<section class="workspace-grid section-wrap">
+  <form class="form-panel" id="career-form">
+    <div class="panel-topline"><span>YOUR STARTING POINT</span><span>01 — 02</span></div>
+    <label for="student-name">Student name</label><input id="student-name" name="name" maxlength="80" placeholder="e.g. Alex Morgan" required>
+    <label for="target-role">Target role</label><input id="target-role" name="target_role" list="role-options" maxlength="100" placeholder="e.g. Python Developer" required><datalist id="role-options"></datalist>
+    <label for="current-skills">Skills you have today</label><textarea id="current-skills" name="skills" rows="4" maxlength="1200" placeholder="Python, SQL, teamwork... Separate skills with commas" required></textarea>
+    <p class="field-hint">Include coursework, tools, and skills you’re still building.</p>
+    <button class="button button-dark button-wide" type="submit">Build my 30-day plan <span aria-hidden="true">↗</span></button>
+    <p class="form-message" aria-live="polite"></p>
+  </form>
+  <div class="result-panel" id="career-results" aria-live="polite">
+    <div class="empty-state"><span class="empty-mark">01</span><p class="eyebrow">YOUR ROADMAP APPEARS HERE</p><h2>Start with a direction.</h2><p>Once you submit your skills, you’ll see role alignment, priority gaps, a learning sequence, and a day-by-day plan.</p><div class="empty-rule"></div><span class="small-mono">YOUR PACE IS THE RIGHT PACE</span></div>
+  </div>
+</section>
+{% endblock %}
